@@ -75,11 +75,10 @@ This is a command-line interface (CLI) application for managing notes and tags. 
   - Edit a specific tag by its ID
   - Delete a tag by its ID
 
-- Association Management:
+   Association Management:
   - Associate a note with a tag
   - Dissociate a note from a tag
-  - Get tags associated with a note
-  - Get notes associated with a tag
+  
 
 ## Installation
 
