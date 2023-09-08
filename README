@@ -1,0 +1,183 @@
+# NOTE APP WITH CLI
+
+[![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+
+## Introduction
+This is a command-line interface (CLI) application for managing notes and tags. It provides functionality to create, view, edit, and delete notes, create and manage tags, and associate notes with tags.
+
+## Features
+User Management:
+
+-Create users
+-List all user
+
+Note Management:
+
+-Create a new note
+-List all notes for a specific user
+-View a specific note by its ID
+-Edit a specific note by its ID
+-Delete a note by its ID
+
+Tag Management:
+
+-Create a new tag
+-View a specific tag by its ID
+-List all tags
+-Edit a specific tag by its ID
+-Delete a tag by its ID
+
+Association Management:
+
+-Associate a note with a tag
+-Dissociate a note from a tag
+-Get tags associated with a note
+-Get notes associated with a tag
+
+## Installation 
+
+1. Clone this repository to your local amchine
+    git clone (https://github.com/njagiiii/Note-App-CLI)
+    cd Note_App
+
+2. Create a Virtual Environment
+   python -m venv venv
+
+3. Activate virtual Environment
+   . on Windows
+       Sure! Here's the README with links for Python and the license:
+
+```markdown
+# Note App with CLI
+
+## Introduction
+
+This is a command-line interface (CLI) application for managing notes and tags. It provides functionality to create, view, edit, and delete notes, create and manage tags, and associate notes with tags.
+
+## Features
+
+- User Management:
+  - Create users
+  - List all users
+
+- Note Management:
+  - Create a new note
+  - List all notes for a specific user
+  - View a specific note by its ID
+  - Edit a specific note by its ID
+  - Delete a note by its ID
+
+- Tag Management:
+  - Create a new tag
+  - View a specific tag by its ID
+  - List all tags
+  - Edit a specific tag by its ID
+  - Delete a tag by its ID
+
+- Association Management:
+  - Associate a note with a tag
+  - Dissociate a note from a tag
+  - Get tags associated with a note
+  - Get notes associated with a tag
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone <repository_url>
+   cd Note_App_CLI
+   ```
+
+2. Create a virtual environment (optional but recommended):
+
+   ```bash
+   python -m venv venv
+   ```
+
+3. Activate the virtual environment:
+
+   - On Windows:
+
+     ```bash
+     venv\Scripts\activate
+     ```
+
+   - On macOS and Linux:
+
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+To use the CLI, you can run the following command:
+
+```bash
+python cli.py
+```
+
+This will start the CLI interface, and you can interact with the various commands as mentioned in the Features section.
+
+## Example Usage
+
+### Create a User
+
+```bash
+python cli.py createuser --name JohnDoe
+```
+
+### Create a Note
+
+```bash
+python cli.py createnote --title "Meeting Notes" --content "Discussion on project updates" --user_id 1
+```
+
+### Create a Tag
+
+```bash
+python cli.py createtag --name "Important"
+```
+
+### Associate a Note with a Tag
+
+```bash
+python cli.py associate --note_id 1 --tag_id 1
+```
+
+### Get Tags Associated with a Note
+
+```bash
+python cli.py tagsfornote --note_id 1
+```
+
+### List All Notes for a User
+
+```bash
+python cli.py listnotes --user_id 1
+```
+
+## Contributing
+
+Contributions are welcome! If you have suggestions, bug reports, or would like to contribute to this project, please create an issue or pull request on the [GitHub repository]((https://github.com/njagiiii/Note-App-CLI)).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+
+[![Python Version](https://img.shields.io/badge/Python-3.11-brightgreen.svg)](https://www.python.org/downloads/release/python-311/)
+```
+
+
+
+
+
+
+
